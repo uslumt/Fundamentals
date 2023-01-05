@@ -7,4 +7,4 @@ def salting(obj):
 def my_menu (fd , tm):
     return fd , tm
 
-steak_menu = my_menu("steak", 2)
+steak_menu = my_menu("steak", 2) # "steak salted 2 times"
