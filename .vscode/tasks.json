@@ -7,12 +7,14 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g", // for debugging 
+                "-Wall", // show warnigs
                 "${workspaceFolder}/Software_Engineering/C++/*.cpp", // where {workspaceFolder} is the Fundamentals 
 
                 "${workspaceFolder}/Software_Engineering/C++/Include/*.cpp", //header file resource codes
                 "${workspaceFolder}/Software_Engineering/C++/Include/*.h",  /* header files -> there is a warning when this line is uncommented since the pre-processor takes headerfile 
                  and import in main program which already contained #pragma once 
                  so either use pragma once in .h and comment this line or use include guard(ifndef) and uncomment tis line*/
+                
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
