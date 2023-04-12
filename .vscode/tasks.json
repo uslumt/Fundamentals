@@ -6,7 +6,7 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-fdiagnostics-color=always",
-                "-g",
+                "-g", // for debugging 
                 "${workspaceFolder}/Software_Engineering/C++/*.cpp", // where {workspaceFolder} is the Fundamentals 
 
                 "${workspaceFolder}/Software_Engineering/C++/Include/*.cpp", //header file resource codes
